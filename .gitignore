@@ -1,0 +1,43 @@
+# Extensions
+*.diff
+*.err
+*.log
+*.swp
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.idea
+.tmp
+
+# Build
+node_modules
+
+# Project ignores
+
+# Root
+/*
+!.gitignore
+!.editorconfig
+!yarn.lock
+!package.json
+!README.md
+!favicon.ico
+!Jenkinsfile*
+!_frontend/
+!.github/
+
+# WordPress
+!wp-content
+wp-content/*
+!wp-content/themes
+wp-content/themes/*
+!wp-content/plugins
+wp-content/plugins/*
+
+# WordPress theme and required plugins
+!wp-content/themes/pokefinder/
+!wp-content/plugins/elementor-remove-widgets/

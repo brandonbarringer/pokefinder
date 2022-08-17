@@ -1,0 +1,81 @@
+{
+    "key": "group_tracking",
+    "title": "Tracking",
+    "fields": [
+        {
+            "key": "field_5f99ebdcd5a1e",
+            "label": "Head",
+            "name": "tracking_head",
+            "type": "textarea",
+            "instructions": "Outputs inside &lt;head&gt; tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f99ec95d5a20",
+            "label": "Body Start",
+            "name": "tracking_body_start",
+            "type": "textarea",
+            "instructions": "Outputs immediately after opening &lt;body&gt; tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f99ecc9d5a21",
+            "label": "Body End",
+            "name": "tracking_body_end",
+            "type": "textarea",
+            "instructions": "Outputs immediately before closing &lt;\/body&gt; tag",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-tracking"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1603923264
+}
